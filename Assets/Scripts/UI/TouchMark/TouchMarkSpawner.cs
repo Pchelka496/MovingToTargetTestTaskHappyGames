@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace UI.TouchMark
 {
-    public class TouchMarks : MonoBehaviour
+    public class TouchMarkSpawner : MonoBehaviour
     {
         [Required] [HideLabel] [SerializeField]
         InputHandler _inputHandler;
